@@ -1,0 +1,1 @@
+Run real_time_video_capture.py on Rpi to start recording video of pedestrians. Then, cleanse and process data using video_processing.py. The data can then be used in the training directory

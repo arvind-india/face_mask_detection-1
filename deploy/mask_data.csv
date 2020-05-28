@@ -1,0 +1,4 @@
+,date,faces_detected,file_name,masks,no_masks
+0,05-26-2020,1,MOV3.jpg,1,0
+1,05-26-2020,1,MOV2.jpg,0,1
+2,05-26-2020,3,MOV1.jpg,1,2
