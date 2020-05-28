@@ -1,1 +1,7 @@
-Run real_time_video_capture.py on Rpi to start recording video of pedestrians. Then, cleanse and process data using video_processing.py. The data can then be used in the training directory
+Run real_time_video_capture.py on Rpi to start recording video of pedestrians. 
+Gather data that has been generated, move to the videos folder. 
+If people are wearing masks in the video, place in the "mask" folder. 
+If people are not, place in "no_mask". 
+If the video contains examples of people both wearing and not wearing, toss out the video. 
+Then, cleanse and process data using video_processing.py 
+The data can then be used in the training directory
