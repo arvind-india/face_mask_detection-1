@@ -1,4 +1,4 @@
-# Rasperry Pi Mask Detection
+# face_mask_detection
 
 Deploying the mask detection project is very easy. 
 1. SCP the _rpi_object_detection_v3.py_ file and the following files to your Raspberry Pi:
