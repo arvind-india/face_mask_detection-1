@@ -3,7 +3,7 @@ A computer vision based project to track and record if people are wearing masks
 
 
 
-# see write up at:
+# See Write Up At:
 The project write up can be found at: https://jonahkaplan1.github.io/pages/mask_cv.html
 
 # Project Requirements
@@ -15,6 +15,6 @@ CV2 both on the Rpi and primary workstation for data training. Keras and other b
 Python3 - to be safe, when triggering scripts, I always specified Python3. Example: _python3 video_processing.py_
 
 
-# credit: 
+# Credit: 
 A huge amount of credit must go to http://pyimagesearch.com/
 The code in the training directory highly leverages their work, as well as the models used throughout the project
