@@ -6,6 +6,7 @@ Deploying the mask detection project is very easy.
 * MobileNetSSD_deploy.prototxt.txt (person detection prototxt)
 
 This is the model for the person detection which will run on the Rpi. 
+
 2. Connect the Rpi camera to your Rpi. Connect a DSLR to your Rpi.
 3. Ensure gphoto2 is properly installed http://www.gphoto.org/. This will give you control of your DSLR from the Rpi
 4. Run _rpi_object_detection_v3.py_ from the Rpi. Ensure the proper args are in place
