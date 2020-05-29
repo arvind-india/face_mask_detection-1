@@ -1,7 +1,11 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-df = pd.read_csv('mask_data.csv')
+df = pd.read_csv('mask_data copy.csv')
+
+df = df.groupby('date')['faces_detected', 'masks', 'no_masks'].sum()
+df['perc_with_mask'] = df['masks'] / df['faces_detected']
+df['perc_without_mask'] = df['no_masks'] / df['faces_detected']
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=df['date'], y=df['perc_with_mask'],
